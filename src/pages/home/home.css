@@ -1,0 +1,55 @@
+/* banner css */
+.banner-container{
+    background-image: url('../../img/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.banner-btn{
+    border: none;
+    background-color: #ffc107;
+    padding: 10px 40px;
+    outline: none;
+    color: #fff;
+  
+}
+/* blog  */
+.blog-date{
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    color: #fff;
+    padding: 20px 10px ;
+    background-color: #0000004d;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%);
+    transition: all .8s  ease-in-out;
+}
+.blog-card:hover .blog-date{
+    transform: rotateY(360deg);
+}
+.blog-dtls{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    background-color: #00000046;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+.blog-card:hover .blog-dtls{
+    background-color: #ffc107;
+    color: #fff;
+}
+.blog-card:hover i{
+    color: #fff;
+}
+/* reviwe css*/
+.reviwe-container{
+    background-image: url('../../img/f.jpg');
+    background-color: rgba(0, 0, 0, 0.397) !important;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}

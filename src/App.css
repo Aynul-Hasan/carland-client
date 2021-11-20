@@ -1,0 +1,14 @@
+.common-color{
+    color: #ffc107;
+}
+.fw-style{
+    font-family: 'Lobster', cursive;
+}
+/* card css */
+.common-size{
+    font-size: 40px;
+    font-weight: 900;
+}
+.z-index{
+    z-index: 13333 !important;
+}

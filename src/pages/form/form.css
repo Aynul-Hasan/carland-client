@@ -1,0 +1,49 @@
+.img-section{
+    background: url('../../img/black-lamborghini.jpg');
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    height: 92vh;
+    position: relative;
+    border-radius: 0 30px  30px 0;
+
+}
+.login-section{
+    background-color: rgb(245, 245, 245);
+    z-index: -222;
+    margin: 50px  0;
+    border-radius: 30px;
+}
+.login-btns{
+    border: none;
+    color: #ffffff;
+    background-color: #ffc107;
+    padding: 10px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px , rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    /* border-radius:; */
+}
+.login-input{
+    width: 90%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #c5c5c5e5; 
+    outline: none;
+    /* border-radius: 50px; */
+}
+.login-btn{
+    width: 90%;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    background-color: #ffc107;
+    /* border-radius: 50px; */
+    color: #ffffff;
+}
+.google-btn{
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 50%;
+
+}

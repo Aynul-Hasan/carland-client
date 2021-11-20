@@ -1,0 +1,25 @@
+.order-card-btn{
+    background-color: #fc0000;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.manage-order-btn{
+    border: none;
+    background-color: #ffc107;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    padding: 10px 20px;
+}
+.manage-product-btn{
+    background-color: #fc0000;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 7px;
+}
